@@ -118,8 +118,6 @@ class _ExpandTextState extends State<ExpandText>
                     child: GestureDetector(
                       child: child,
                       onTap: widget.expandOnGesture ? _handleTap : null,
-                      onVerticalDragEnd:
-                          widget.expandOnGesture ? _handleTap : null,
                     ),
                   ),
                 ),
